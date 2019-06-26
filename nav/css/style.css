@@ -1,0 +1,49 @@
+*{
+    margin :0;
+    padding :0;
+}
+
+.nav-bar{
+    display :flex;
+    margin-left :auto;
+    margin-right :auto;
+    width :max-content;
+    padding-top :5px;
+}
+
+.nav-item{
+    margin-left :10px;
+    margin-right :10px;
+}
+
+.nav-item a{
+    color :white;
+    text-decoration: none ;
+    font-family: 'Courier New', Courier, monospace ;
+    font-weight: bolder ;
+    font-style: italic ;
+    font-size: 25px ;
+}
+
+.nav-bar-container{
+    height :35px;
+    background-image: radial-gradient(blue , black)
+}
+
+.box{
+    height :200px;
+    width :200px;
+    margin :5px;
+}
+
+.content{
+    display :flex;
+}
+
+.red-azer{
+    background-color :red;
+}
+
+.green-amine{
+background-image: linear-gradient(to top , red , yellow)
+}
